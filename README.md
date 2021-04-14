@@ -35,7 +35,7 @@ If you need a custom domain follow these steps - https://docs.microsoft.com/en-u
 
 Set the following environment variables
 
-- **LOCATION** set to the availability zone of your cluster (e.g. 'eastus')
+- **LOCATION** set to the region of your cluster (e.g. 'eastus')
 - **RESOURCEGROUP** set to the name of the resource group where you want to create your cluster
 - **CLUSTER** set to the name of your cluster
 

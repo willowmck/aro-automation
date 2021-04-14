@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ -z "${LOCATION}" ]]; then
-  echo "Environment variable LOCATION is not set.  Please set this to your cluster availability zone."
+  echo "Environment variable LOCATION is not set.  Please set this to your cluster region."
   exit 1
 fi
 
