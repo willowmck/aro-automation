@@ -22,3 +22,8 @@ The above will also install the Azure modules required to run the playbooks, so 
 You will need to login to Azure via the CLI and get your subscription key.  Next, create an environmental variable AZ_SUBSCRIPTION for that key and invoke the following script to setup your resource providers for Azure.
 
 `./register_providers.sh`
+
+# Setup Red Hat pull secret
+
+Follow the docs at https://docs.microsoft.com/en-us/azure/openshift/tutorial-create-cluster#get-a-red-hat-pull-secret-optional to create a local pull secret.
+
