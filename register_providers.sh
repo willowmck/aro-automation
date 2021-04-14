@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ -z "${AZ_SUBSCRIPTION" ]]; then
+if [[ -z "${AZ_SUBSCRIPTION}" ]]; then
   echo "Environment variable AZ_SUBSCRIPTION is not set.  Please set this to your Azure subscription id."
   exit 1
 fi

@@ -27,3 +27,18 @@ You will need to login to Azure via the CLI and get your subscription key.  Next
 
 Follow the docs at https://docs.microsoft.com/en-us/azure/openshift/tutorial-create-cluster#get-a-red-hat-pull-secret-optional to create a local pull secret.
 
+# Custom Domain
+
+If you need a custom domain follow these steps - https://docs.microsoft.com/en-us/azure/openshift/tutorial-create-cluster#prepare-a-custom-domain-for-your-cluster-optional
+
+# Virtual network creation
+
+Set the following environment variables
+
+- **LOCATION** set to the availability zone of your cluster (e.g. 'eastus')
+- **RESOURCEGROUP** set to the name of the resource group where you want to create your cluster
+- **CLUSTER** set to the name of your cluster
+
+Execute the following script.
+
+`./setup_vn.sh`
