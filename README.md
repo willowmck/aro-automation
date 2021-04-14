@@ -6,9 +6,9 @@ Ansible contains documentation on working with [Microsoft Azure](https://docs.an
 
 # Prerequisites
 
-[Ansible 2.9](https://docs.ansible.com/ansible/2.9/installation_guide/intro_installation.html)
-[Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
-[Python3](https://www.python.org/downloads/)
+- [Ansible 2.9](https://docs.ansible.com/ansible/2.9/installation_guide/intro_installation.html)
+- [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
+- [Python3](https://www.python.org/downloads/)
 
 # Configuration
 This set of Ansible automation makes the assumption that you are using Python3.  To ensure that you have the correct Python and are configured correctly, run the following
