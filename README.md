@@ -16,3 +16,9 @@ This set of Ansible automation makes the assumption that you are using Python3. 
 `./configure.sh`
 
 The above will also install the Azure modules required to run the playbooks, so it's a good idea to run this.
+
+# Registrations
+
+You will need to login to Azure via the CLI and get your subscription key.  Next, create an environmental variable AZ_SUBSCRIPTION for that key and invoke the following script to setup your resource providers for Azure.
+
+`./register_providers.sh`
